@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-// Counter Provider
 final counterProvider = StateProvider<int>((ref) => 0);
 
-// Theme Mode Provider
 final themeProvider = StateProvider<bool>((ref) => false);
 
 void main() {
